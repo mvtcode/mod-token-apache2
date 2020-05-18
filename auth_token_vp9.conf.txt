@@ -1,0 +1,9 @@
+<Location /chn/vtv3/>
+    Enable                on
+    AuthTokenSecret       "123456789jqk"
+    AuthTokenPrefix       /chn/vtv3/
+    CookieName            "token_key"
+    Extension             "ts"
+    AuthTokenTimeout      60
+    AuthTokenLimitByIp    off
+</Location>
